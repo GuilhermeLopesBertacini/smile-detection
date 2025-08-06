@@ -26,10 +26,10 @@ def get_lm_coordinates(lm):
         A tuple containing the left mouth corner, right mouth corner,
         upper lip center, lower lip center, left eye, and right eye landmarks.
     """
-    left = lm[61]   # left mouth corner
-    right = lm[291] # right mouth corner
-    top = lm[13]    # upper lip center
-    bottom = lm[14] # lower lip center
+    left = lm[61]
+    right = lm[291]
+    top = lm[13]
+    bottom = lm[14]
     left_eye = lm[33]
     right_eye = lm[263]
     return left, right, top, bottom, left_eye, right_eye
